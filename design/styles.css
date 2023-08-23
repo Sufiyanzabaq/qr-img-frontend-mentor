@@ -1,0 +1,56 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container{
+    max-width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto 1em;
+
+}
+
+.text{
+    width: 80%;
+    margin: 20px;
+    line-height: 1.4;
+}
+
+.text h2{
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.text p{
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+
+}
+
+.container img{
+    width: 100%;
+    border-radius: 10px;
+}
